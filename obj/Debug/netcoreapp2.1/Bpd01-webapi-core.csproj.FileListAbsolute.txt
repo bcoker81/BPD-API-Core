@@ -1,0 +1,14 @@
+C:\MSHPGit\BPD01-WebApi-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.deps.json
+C:\MSHPGit\BPD01-WebApi-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.runtimeconfig.json
+C:\MSHPGit\BPD01-WebApi-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.runtimeconfig.dev.json
+C:\MSHPGit\BPD01-WebApi-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
+C:\MSHPGit\BPD01-WebApi-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.csprojAssemblyReference.cache
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.csproj.CoreCompileInputs.cache
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorAssemblyInfo.cache
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorAssemblyInfo.cs
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfoInputs.cache
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfo.cs
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorTargetAssemblyInfo.cache
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
+C:\MSHPGit\BPD01-WebApi-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
