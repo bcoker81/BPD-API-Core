@@ -32,5 +32,20 @@ namespace BPD01_WebApi_Core.Controllers
                 return BadRequest();
             }
         }
+
+        [Route("new"), HttpPost]
+        public IActionResult NewComment(CommentModel comment){
+            try
+            {
+                _unitOfWork.CommentRepository.Insert(comment);
+                Console.WriteLine("Message sent successfully.");
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error receiving message.");
+                return BadRequest();
+            }
+        }
     }
 }
