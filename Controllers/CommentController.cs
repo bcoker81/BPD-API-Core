@@ -33,8 +33,8 @@ namespace BPD01_WebApi_Core.Controllers
             }
         }
 
-        [Route("new/{grantId}"), HttpPost]
-        public IActionResult NewComment(int grantId, CommentModel comment){
+        [Route("new"), HttpPost]
+        public IActionResult NewComment(CommentModel comment){
             try
             {
                 _unitOfWork.CommentRepository.Insert(comment);
@@ -53,6 +53,22 @@ namespace BPD01_WebApi_Core.Controllers
             try
             {
                 _unitOfWork.CommentRepository.Update(comment);
+                Console.WriteLine("Message sent successfully.");
+                return Ok();
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return BadRequest();
+            }
+        }
+
+        [Route("delete/{id}")]
+        public IActionResult DeleteComment(CommentModel comment){
+            try
+            {
+                _unitOfWork.CommentRepository.Delete(comment);
+                _unitOfWork.Save();
                 Console.WriteLine("Message sent successfully.");
                 return Ok();
             }
