@@ -33,17 +33,32 @@ namespace BPD01_WebApi_Core.Controllers
             }
         }
 
-        [Route("new"), HttpPost]
-        public IActionResult NewComment(CommentModel comment){
+        [Route("new/{grantId}"), HttpPost]
+        public IActionResult NewComment(int grantId, CommentModel comment){
             try
             {
                 _unitOfWork.CommentRepository.Insert(comment);
                 Console.WriteLine("Message sent successfully.");
                 return Ok();
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
-                Console.WriteLine("Error receiving message.");
+                Console.WriteLine(ex.Message);
+                return BadRequest();
+            }
+        }
+
+        [Route("update/{id}")]
+        public IActionResult UpdateComment(CommentModel comment){
+            try
+            {
+                _unitOfWork.CommentRepository.Update(comment);
+                Console.WriteLine("Message sent successfully.");
+                return Ok();
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine(ex.Message);
                 return BadRequest();
             }
         }
