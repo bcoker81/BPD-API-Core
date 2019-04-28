@@ -38,6 +38,7 @@ namespace BPD01_WebApi_Core.Controllers
             try
             {
                 _unitOfWork.CommentRepository.Insert(comment);
+                _unitOfWork.Save();
                 Console.WriteLine("Message sent successfully.");
                 return Ok();
             }
