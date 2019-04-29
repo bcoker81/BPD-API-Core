@@ -18,14 +18,15 @@ namespace BPD01_WebApi_Core.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        [Route("getall"),HttpGet]
-        public IActionResult GetAllGrants(){
+        // [Route("getall"),HttpGet]
+        [HttpGet]
+        public ActionResult<IEnumerable<GrantModel>> GetAllGrants(){
             try
             {
                 List<GrantModel> grantList = _unitOfWork.GrantRepository.Get();
                 Console.WriteLine("Message returned successfully.");
 
-                return Ok(grantList);
+                return grantList;
             }
             catch (System.Exception ex)
             {
@@ -35,7 +36,8 @@ namespace BPD01_WebApi_Core.Controllers
         }
 
         [Route("getDetails/{id}"),HttpGet]
-        public IActionResult GetGrantDetails(int id)
+        //[HttpGet("{id}")]
+        public ActionResult<GrantModel> GetGrantDetails(int id)
         {
             try
             {
@@ -46,10 +48,10 @@ namespace BPD01_WebApi_Core.Controllers
                 Expression<Func<GrantModel, object>> extensions = e => e.ExtensionDates;
                 Expression<Func<GrantModel, object>> categories = c => c.Categories;
                 Expression<Func<GrantModel, object>>[] parameterArray = new Expression<Func<GrantModel, object>>[] { comments, ldpr, gans, reports, extensions, categories };
-                IEnumerable<GrantModel> grant = _unitOfWork.GrantRepository.Get(m => m.Id == id, includes: parameterArray);
+                GrantModel grant = _unitOfWork.GrantRepository.Get(m => m.Id == id, includes: parameterArray).FirstOrDefault();
                 Console.WriteLine("Message returned successfully.");
 
-                return Ok(grant);
+                return grant;
             }
             catch (System.Exception ex)
             {
@@ -58,7 +60,7 @@ namespace BPD01_WebApi_Core.Controllers
             }
         }
 
-        [Route("grantstatus/{search}")]
+        [Route("grantStatus/{search}"), HttpGet]
         public IEnumerable<GrantModel> GetGrantsByAStatus(int search){
             try
             {

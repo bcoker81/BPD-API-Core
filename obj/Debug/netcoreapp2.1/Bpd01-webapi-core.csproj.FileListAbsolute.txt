@@ -40,3 +40,17 @@ C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfo.
 C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorTargetAssemblyInfo.cache
 C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
 C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.csprojAssemblyReference.cache
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.csproj.CoreCompileInputs.cache
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorAssemblyInfo.cache
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorAssemblyInfo.cs
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfoInputs.cache
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfo.cs
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.deps.json
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.runtimeconfig.json
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.runtimeconfig.dev.json
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
+C:\Users\jonesr12\Documents\Projects\opt\BPD01\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorTargetAssemblyInfo.cache

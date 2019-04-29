@@ -40,7 +40,7 @@ namespace Bpd01_webapi_core
             );
             services.AddMvc()
             .AddJsonOptions(opt => opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
-            .AddJsonOptions(opt => opt.SerializerSettings.ContractResolver = new DefaultContractResolver())
+            // .AddJsonOptions(opt => opt.SerializerSettings.ContractResolver = new DefaultContractResolver())
             .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
