@@ -5238,7 +5238,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
+      "sha512": "fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hasTools": true,
@@ -11794,23 +11794,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jonesr12\\.nuget\\packages\\": {},
+    "C:\\Users\\brand\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonesr12\\Documents\\Projects\\opt\\BPD01\\BPD-API-Core\\Bpd01-webapi-core.csproj",
+      "projectUniqueName": "C:\\dotnetcore\\BPD-API-Core\\Bpd01-webapi-core.csproj",
       "projectName": "Bpd01-webapi-core",
-      "projectPath": "C:\\Users\\jonesr12\\Documents\\Projects\\opt\\BPD01\\BPD-API-Core\\Bpd01-webapi-core.csproj",
-      "packagesPath": "C:\\Users\\jonesr12\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonesr12\\Documents\\Projects\\opt\\BPD01\\BPD-API-Core\\obj\\",
+      "projectPath": "C:\\dotnetcore\\BPD-API-Core\\Bpd01-webapi-core.csproj",
+      "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
+      "outputPath": "C:\\dotnetcore\\BPD-API-Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jonesr12\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11818,7 +11818,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "\\\\srvedu\\AppDev\\Nuget_Repo": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
