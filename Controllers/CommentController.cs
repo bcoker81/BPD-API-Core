@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using BPD01_WebApi_Core.Domain;
 using BPD01_WebApi_Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -15,6 +16,11 @@ namespace BPD01_WebApi_Core.Controllers
         public CommentController(IUow unitOfWork)
         {
             _unitOfWork = unitOfWork;
+        }
+
+        [Route("getComment/{id}")]
+        public CommentModel GetCommentById(int id){
+            return _unitOfWork.CommentRepository.Get(p => p.CommentId == id).FirstOrDefault();
         }
 
         [Route("getall/{grantId}"),HttpGet]
