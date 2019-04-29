@@ -58,6 +58,20 @@ namespace BPD01_WebApi_Core.Controllers
             }
         }
 
+        [Route("grantstatus/{search}")]
+        public IEnumerable<GrantModel> GetGrantsByAStatus(int search){
+            try
+            {
+                IEnumerable<GrantModel> grantList = new List<GrantModel>();
+                grantList = _unitOfWork.GrantRepository.Get(p => p.Status == search).Where(p => p.IsDeleted == false);
+                return grantList;
+            }
+            catch (System.Exception ex)
+            {
+                return null;
+            }
+        }
+
         [Route("newGrant"), HttpPost]
         public IActionResult NewGrant([FromBody] GrantModel newGrant)
         {

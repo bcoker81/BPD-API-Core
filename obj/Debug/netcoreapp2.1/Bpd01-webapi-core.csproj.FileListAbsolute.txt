@@ -26,3 +26,17 @@ C:\dotnetcore\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInf
 C:\dotnetcore\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorTargetAssemblyInfo.cache
 C:\dotnetcore\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
 C:\dotnetcore\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
+C:\cokergit\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.deps.json
+C:\cokergit\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.runtimeconfig.json
+C:\cokergit\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.runtimeconfig.dev.json
+C:\cokergit\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
+C:\cokergit\BPD-API-Core\bin\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.csprojAssemblyReference.cache
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.csproj.CoreCompileInputs.cache
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorAssemblyInfo.cache
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorAssemblyInfo.cs
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfoInputs.cache
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.AssemblyInfo.cs
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.RazorTargetAssemblyInfo.cache
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.dll
+C:\cokergit\BPD-API-Core\obj\Debug\netcoreapp2.1\Bpd01-webapi-core.pdb
