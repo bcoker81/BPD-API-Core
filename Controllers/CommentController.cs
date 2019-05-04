@@ -18,7 +18,7 @@ namespace BPD01_WebApi_Core.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        [Route("getComment/{id}")]
+        [Route("getComment/{id}"),HttpGet]
         public CommentModel GetCommentById(int id){
             return _unitOfWork.CommentRepository.Get(p => p.CommentId == id).FirstOrDefault();
         }

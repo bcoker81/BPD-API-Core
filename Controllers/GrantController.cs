@@ -18,8 +18,7 @@ namespace BPD01_WebApi_Core.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        // [Route("getall"),HttpGet]
-        [HttpGet]
+        [Route("getall"),HttpGet]
         public ActionResult<IEnumerable<GrantModel>> GetAllGrants(){
             try
             {
@@ -70,6 +69,7 @@ namespace BPD01_WebApi_Core.Controllers
             }
             catch (System.Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return null;
             }
         }

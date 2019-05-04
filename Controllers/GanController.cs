@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using BPD01_WebApi_Core.Domain;
@@ -26,6 +27,7 @@ namespace BPD_API_Core.Controllers
             }
             catch (System.Exception ex)
             {
+                Console.WriteLine(ex.Message);                
                 return null;
             }
         }
@@ -45,6 +47,7 @@ namespace BPD_API_Core.Controllers
             }
             catch (System.Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return null;
             }
         }
@@ -59,6 +62,7 @@ namespace BPD_API_Core.Controllers
             }
             catch (System.Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 return null; 
             }
         }
