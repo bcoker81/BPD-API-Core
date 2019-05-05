@@ -58,7 +58,7 @@ namespace BPD_API_Core.Controllers
             }
         }
 
-        [Route("getAll/{grantId}")]
+        [Route("getAll/{grantId}"), HttpGet]
         public IActionResult GetAll(int grantId){
             try
             {
