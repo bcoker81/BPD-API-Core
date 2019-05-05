@@ -71,6 +71,5 @@ namespace BPD_API_Core.Controllers
                 throw;
             }
         }
-        }
     }
 }
