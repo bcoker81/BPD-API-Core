@@ -4,14 +4,16 @@ using BPD01_WebApi_Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Bpd01webapicore.Migrations
 {
     [DbContext(typeof(BpdDbContext))]
-    partial class BpdDbContextModelSnapshot : ModelSnapshot
+    [Migration("20190506182932_changed ldpr")]
+    partial class changedldpr
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

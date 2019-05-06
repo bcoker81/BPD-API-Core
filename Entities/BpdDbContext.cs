@@ -19,5 +19,6 @@ namespace BPD01_WebApi_Core.Entities
         public DbSet<CategoryModel> Categories { get; set; }
         public DbSet<ExpenditureModel> Expenditures { get; set; }
         public DbSet<GANModel> Gans { get; set; }
+        public DbSet<LdprModel> Ldprs {get;set;}
     }
 }

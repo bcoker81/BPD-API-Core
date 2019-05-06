@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BPD01_WebApi_Core.Domain
 {
-    [Table("LdprModels")]
+    [Table("Ldpr")]
     public class LdprModel
     {
         [Key]
